@@ -63,7 +63,7 @@ class AuditTrailEntry extends \yii\db\ActiveRecord
 		return [
 			'id'=>Yii::t('app', 'ID'),
 			'model_type'=>Yii::t('app', 'Table name'),
-			'happened_at'=>Yii::t('app', 'Happened at'),
+			'happened_at'=>Yii::t('app', 'Date & Time'),
 			'foreign_pk'=>Yii::t('app', 'Foreign PK'),
 			'user_id'=>Yii::t('app', 'User ID'),
 			'type'=>Yii::t('app', 'Type'),
